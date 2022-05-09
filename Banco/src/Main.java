@@ -9,4 +9,7 @@ public class Main {
         System.out.println("Puedo sacar 500€: " + c.reintegro(500));
         //edito local
     }
+    
+    if(!money){
+        printMoney();
 }
