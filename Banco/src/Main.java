@@ -8,8 +8,10 @@ public class Main {
         System.out.println("Puedo sacar 700€: " + c.reintegro(700));
         System.out.println("Puedo sacar 500€: " + c.reintegro(500));
         //edito local
+        if(!money){
+            printMoney();
+        }
     }
     
-    if(!money){
-        printMoney();
+    
 }
